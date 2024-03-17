@@ -1,0 +1,162 @@
+/*Fondo del body del index*/
+.fondo {
+    background-image: url(../img/Fatilu.png);
+    background-repeat: repeat;
+}
+
+/*Caracteristicas del contenedor del index*/
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #990099;        /*FONDO LILA*/
+    border: 1px solid #111;        /*BORDE DE COLOR LILA*/
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Caracteristicas del contenedor datos del login*/
+.container2 {
+    width: 300px;
+    background-color: #990099; /* Violeta oscuro */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    box-shadow: 10px 10px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    justify-content: center;
+}
+
+/* Color de fuente violeta oscuro en registrar */
+.fuentevioleta {
+    color: #9932CC;
+}
+
+/*Color del body de la principal*/
+.colorbody {
+    color: orange;
+    background-image: url(../img/Fatilu.png);
+}
+
+/*Color del menu principal.*/
+#menu1 {    /*Cerrar sesion de principal*/
+    font-family: 'Forte Forward', cursive;
+    font-size: 20px;
+    color: black;
+}
+
+#menu2 {  /*Cerrar sesion de registrar*/
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*Color de fuente del principal*/
+#fuentepurpura {
+    color: #990099;
+}
+
+#centrar {
+    text-align: center;
+}
+
+#negrita {
+    font-weight: bold;
+}
+
+/*=======Desde aquí el menú*/
+.navbar {
+    background-image: url(../img/Fatilu.png);
+    padding: 15px; /* Espaciado interno */
+    position: relative;
+}
+
+.navbar h5 {
+    font-family: 'Forte Forward', cursive;
+    font-size: 50px;
+    color: black;
+    text-align: center; /* Alinea el texto al centro */
+    margin: 0; /* Elimina el margen para evitar espaciado no deseado */
+    padding: 0; /* Elimina el relleno para evitar espaciado no deseado */
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .user-profile {
+    font-family: 'Forte Forward', cursive;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar img {
+    max-width: 100%;
+    height: 1px; /* Ajusta la altura según sea necesario */
+    margin-right: 5px; /* Espacio entre la imagen y los enlaces */
+}
+
+.navbar .user-links {
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+}
+
+.navbar .user-links a {
+    color: black;
+    margin-right: 10px; /* Espaciado entre elementos */
+}
+
+.user-profile {
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+}
+
+.user-links {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+}
+
+.user-links a {
+    margin-bottom: 40px; /* Espaciado entre los enlaces */
+}
+
+.user-links img {
+    margin-right: 30px; /* Espacio entre la imagen y los enlaces */
+}
+
+#menu1 {
+    margin-top: 30px; /* Ajusta el margen superior de Cerrar Sesión */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    margin-bottom: 10px; /* Espaciado entre elementos */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #17a2b8; /* Fondo celeste */
+}
+
+li a:hover {
+    background-color: #990099;
+}
