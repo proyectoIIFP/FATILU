@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9-nov-2023, 15:32:55
+    Author     : fatil
+*/
+
+nav {
+    background-color: #990099;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container2{
+    width: 300px;
+    background-color: #990099; /* Violeta oscuro */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    box-shadow: 10px 10px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    justify-content: center;
+}
+.enlaces-contacto p {
+    color: white;
+}
+.enlaces-contacto a {
+    color: black;
+}
+.form-group{
+    color: white;
+}
+
+
+
+body {
+    background-image: url(../img/Fatilu.png);
+    background-repeat: repeat;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 20px;
+}
+.navbar{
+    background-image: url(../img/Fatilu.png);
+    padding: 15px; /* Espaciado interno */
+}
+
+#menu2{  /*Cerrar sesion de registrar*/
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dropdown-menu a{
+    color:orange;
+    font-family: 'Forte Forward', cursive;
+    
+}
+/* Estilos responsivos */
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+
+    nav a {
+        padding: 8px; /* Ajusta el espaciado en enlaces para pantallas pequeñas */
+    }
+    
+}
